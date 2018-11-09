@@ -2,6 +2,4 @@
 .RECIPEPREFIX +=
 
 build:
-    rm -rf symfony
-    git clone https://github.com/advox/holiday.git symfony
-    cd symfony && composer install
+    rm -rf symfony && git clone https://github.com/advox/holiday.git symfony && cd symfony && composer install
