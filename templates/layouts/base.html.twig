@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{ include('layouts/head.html.twig') }}
+</head>
+<body>
+    <div id="mainPageContainer">
+        <header>
+            {{ include('layouts/header.html.twig') }}
+        </header>
+
+        {% block body %}{% endblock %}
+
+        <footer id="footer">
+            {{ include('layouts/footer.html.twig') }}
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{% extends 'layouts/base.html.twig' %}
+
+{% block body %}
+
+    <h1>Typy:</h1>
+    <ul>
+
+        <select>
+        {% for type in types %}
+
+                 <option>{{ type.name }}</option>
+
+        {% endfor %}
+        </select>
+    </ul>
+
+
+
+{% endblock %}
